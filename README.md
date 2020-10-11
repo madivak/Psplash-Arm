@@ -18,7 +18,9 @@ The Linux FB initialization information from here: https://community.khronos.org
 
 Further reading on Linux DRM subsystem KMS essential to understanding the new Linux way of writting to the framebuffer check the following links:
 > https://events.static.linuxfound.org/sites/events/files/slides/brezillon-drm-kms.pdf
+
 > https://archive.fosdem.org/2020/schedule/event/fbdev/attachments/slides/3595/export/events/attachments/fbdev/slides/3595/fosdem_2020_nicolas_caramelli_linux_framebuffer.pdf
+
 > https://www.kernel.org/doc/html/v4.15/gpu/drm-kms.html
 
 The PDFs are also included in this repo
