@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/repos/misc/!svn/ver/424/trunk/psplash
+END
+psplash-fb.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/misc/!svn/ver/422/trunk/psplash/psplash-fb.c
+END
+psplash-hand-img.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/misc/!svn/ver/130/trunk/psplash/psplash-hand-img.h
+END
+psplash-write.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/misc/!svn/ver/156/trunk/psplash/psplash-write.c
+END
+psplash-fb.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/misc/!svn/ver/422/trunk/psplash/psplash-fb.h
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/repos/misc/!svn/ver/125/trunk/psplash/AUTHORS
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/repos/misc/!svn/ver/422/trunk/psplash/ChangeLog
+END
+psplash-poky-img.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/misc/!svn/ver/419/trunk/psplash/psplash-poky-img.h
+END
+psplash-console.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/misc/!svn/ver/125/trunk/psplash/psplash-console.c
+END
+psplash.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/repos/misc/!svn/ver/424/trunk/psplash/psplash.c
+END
+make-image-header.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/misc/!svn/ver/130/trunk/psplash/make-image-header.sh
+END
+psplash.doap
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/misc/!svn/ver/240/trunk/psplash/psplash.doap
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/repos/misc/!svn/ver/240/trunk/psplash/README
+END
+psplash-console.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/misc/!svn/ver/125/trunk/psplash/psplash-console.h
+END
+psplash.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/repos/misc/!svn/ver/422/trunk/psplash/psplash.h
+END
+radeon-font.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/misc/!svn/ver/126/trunk/psplash/radeon-font.h
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/misc/!svn/ver/240/trunk/psplash/configure.ac
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/misc/!svn/ver/419/trunk/psplash/Makefile.am
+END
+autogen.sh
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/misc/!svn/ver/125/trunk/psplash/autogen.sh
+END
+psplash-bar-img.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/misc/!svn/ver/132/trunk/psplash/psplash-bar-img.h
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/repos/misc/!svn/ver/125/trunk/psplash/NEWS
+END

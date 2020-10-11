@@ -1,0 +1,78 @@
+Common subdirectories: psplash-r424/base-images and psplash-lw/base-images
+diff -u psplash-r424/psplash.c psplash-lw/psplash.c
+--- psplash-r424/psplash.c	2010-08-03 12:18:56.000000000 -0400
++++ psplash-lw/psplash.c	2010-08-03 12:09:51.605475692 -0400
+@@ -49,7 +49,7 @@
+ 			fb->height - (fb->height/6) - h, 
+ 			fb->width,
+ 			h,
+-			0xec, 0xec, 0xe1);
++			0x00, 0x00, 0x0);
+ 
+   psplash_fb_draw_text (fb,
+ 			(fb->width-w)/2, 
+@@ -75,7 +75,7 @@
+       barwidth = (CLAMP(value,0,100) * width) / 100;
+       psplash_fb_draw_rect (fb, x + barwidth, y, 
+     			width - barwidth, height,
+-			0xec, 0xec, 0xe1);
++			0x00, 0x00, 0x00);
+       psplash_fb_draw_rect (fb, x, y, barwidth,
+ 			    height, 0x6d, 0x6d, 0x70);
+     }
+@@ -84,7 +84,7 @@
+       barwidth = (CLAMP(-value,0,100) * width) / 100;
+       psplash_fb_draw_rect (fb, x, y, 
+     			width - barwidth, height,
+-			0xec, 0xec, 0xe1);
++			0x00, 0x00, 0x00);
+       psplash_fb_draw_rect (fb, x + width - barwidth,
+ 			    y, barwidth, height,
+ 			    0x6d, 0x6d, 0x70);
+@@ -115,7 +115,7 @@
+     } 
+   else if (!strcmp(command,"MSG")) 
+     {
+-      psplash_draw_msg (fb, strtok(NULL,"\0"));
++//      psplash_draw_msg (fb, strtok(NULL,"\0"));
+     } 
+   else if (!strcmp(command,"QUIT")) 
+     {
+@@ -264,12 +264,12 @@
+   }
+ 
+   /* Clear the background with #ecece1 */
+-  psplash_fb_draw_rect (fb, 0, 0, fb->width, fb->height, 0xec, 0xec, 0xe1);
++  psplash_fb_draw_rect (fb, 0, 0, fb->width, fb->height, 0x00, 0x00, 0x00);
+ 
+   /* Draw the Poky logo  */
+   psplash_fb_draw_image (fb, 
+-			 (fb->width  - POKY_IMG_WIDTH)/2, 
+-			 ((fb->height * 5) / 6 - POKY_IMG_HEIGHT)/2,
++			 0, 
++			 0,
+ 			 POKY_IMG_WIDTH,
+ 			 POKY_IMG_HEIGHT,
+ 			 POKY_IMG_BYTES_PER_PIXEL,
+diff -u psplash-r424/psplash-fb.h psplash-lw/psplash-fb.h
+--- psplash-r424/psplash-fb.h	2010-08-03 12:18:56.000000000 -0400
++++ psplash-lw/psplash-fb.h	2010-08-03 12:01:49.793477183 -0400
+@@ -18,6 +18,8 @@
+ #ifndef _HAVE_PSPLASH_FB_H
+ #define _HAVE_PSPLASH_FB_H
+ 
++#include "psplash.h"
++
+ enum RGBMode {
+     RGB565,
+     BGR565,
+@@ -29,7 +31,7 @@
+ typedef struct PSplashFB
+ {
+   int            fd;			
+-  struct termios save_termios;	        
++//  struct termios save_termios;	        
+   int            type;		        
+   int            visual;		
+   int            width, height;
+Common subdirectories: psplash-r424/.svn and psplash-lw/.svn
