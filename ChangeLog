@@ -141,3 +141,9 @@
 	Add cmd line switch to disable console switch
 	Move console switch after fifo set up.
 
+2020-10-12 Kevin Amadiva <madivak@live.co.uk>
+
+	* fbinit.c
+	* fbinit.h
+	Add FB initialization via DRM/KMS subsystem
+	Add fb initalization in psplash.c top of main function
