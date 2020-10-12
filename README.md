@@ -11,6 +11,7 @@ This patched Psplash was tested on an Allwinner A20 with an attached LCD Display
 ## Resources
 
 Original source code: http://github.com/downloads/liquidware/liquidware_beagleboard_linux/psplash-r424.tgz
+
 The Linux FB initialization information from here: https://community.khronos.org/t/write-to-framebuffer-directly/921/3
 
 ## Research
