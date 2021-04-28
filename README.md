@@ -2,11 +2,11 @@
 
 ## Task
 
-Psplash was being launched but could not Display unless the fb mode was set ("head -1 /sys/class/graphics/fb0/modes > /sys/class/graphics/fb0/mode"). This ended up causing a QT application to crash. fbinit.c and fbinit.h were added to enable psplash to correctly initialize the FB in the standard Linux way(DRM/KMS) using ioctl() and be able to display the splash image.
+Psplash was being launched but could not Display unless the fb mode was set ("head -1 /sys/class/graphics/fb0/modes > /sys/class/graphics/fb0/mode"). fbinit.c and fbinit.h were added to enable psplash to correctly initialize the framebuffer in the standard Linux way(DRM/KMS) using ioctl() and be able to display the splash image.
 
 ## Test Device
 
-This patched Psplash was tested on an Allwinner A20 with an attached LCD Display
+This patched Psplash was tested on an Allwinner A20 with an attached RGB LCD Display
 
 ## Resources
 
@@ -31,7 +31,7 @@ The PDFs are also included in this repo
 
 ```apt-get install libgtk2.0-dev```
 
-### Get into directory
+### Source the repo & Get into directory
 
 ```cd psplash-r424```
 
