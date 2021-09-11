@@ -2,7 +2,7 @@
 
 ## Task
 
-Psplash was being launched but could not Display unless the fb mode was set ("head -1 /sys/class/graphics/fb0/modes > /sys/class/graphics/fb0/mode"). fbinit.c and fbinit.h were added to enable psplash to correctly initialize the framebuffer in the standard Linux way(DRM/KMS) using ioctl() and be able to display the splash image.
+Psplash was being launched but could not Display unless the fb mode was set ("head -1 /sys/class/graphics/fb0/modes > /sys/class/graphics/fb0/mode"). fbinit.c and fbinit.h were added to enable psplash to correctly initialize the framebuffer in the standard Linux way using ioctl() and be able to display the splash image.
 
 ## Test Device
 
